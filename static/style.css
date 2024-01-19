@@ -1,0 +1,113 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#navbar{
+	padding: 10px;
+	background-image: linear-gradient(to bottom right,#151b75,#c81554 );
+	/* background-image: linear-gradient(red, yellow); this is default top to bottom
+	background-image: linear-gradient(to right, red , yellow); his is left to right
+	background-image: linear-gradient(to bottom right, red, yellow); this is start top left and end bottom right */
+}
+#navbar ul{
+	display: flex;
+flex-direction: row;
+align-items: center;
+	/* justify-content: center; */
+
+}
+#navbar li{
+	list-style: none;
+	 /* margin: 0px 10px;
+ */
+}
+#navbar li a{
+	font-weight: bold;
+	font-size: 2rem;
+	text-decoration: none;
+	padding :30px  20px;
+	color: #130e0e;
+}
+#navbar li a:hover{
+	cursor: pointer;
+	color: rgb(9, 9, 131);
+}
+
+#introsection{
+color: #130e0e;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+background: center /cover no-repeat url("/static/crypto.jpg");
+
+font-size: 30px;
+
+height: 400px;
+background-color: rgb(162, 0, 255);
+padding: 40px ;
+}
+
+#introsection div.small{
+font-size: 1rem;	
+}
+
+#nftcollection{
+height: 300px;
+
+display: block;
+margin: auto;
+width: 60%;
+} 
+
+#nftcollection h2{
+	 font-style: italic; 
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-align: center;
+	padding-top: px;
+	color:black
+}
+
+
+
+#introforsponsership{
+height: 300px;
+background-color: rgb(97, 133, 36);
+/* display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center; */
+text-align: center;  
+}
+
+#introforsponsorship h2{
+	padding-top: 10px;
+	
+	
+}
+
+.card{
+	border: 2px solid red;
+	border-radius: 10px;
+	height: 150px;
+	margin: 20px 20px;
+	width: 27%;
+	display: inline-block;
+	background-image:linear-gradient(to bottom right,red,rgb(167, 33, 167)) ;
+}
+
+.card p{
+	text-align: center;
+	margin: 10px;
+}
+#logo img{
+	height: 70px;
+	width: 20%;
+	
+}
+#logo{
+	display: flex;
+	align-items: center;
+	margin: 0px 15px;
+}
